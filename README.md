@@ -49,7 +49,7 @@ curl -i -u rest:restdemo -H "Content-Type: application/json" -X POST -d '{"descr
 curl -i -u rest:restdemo -H "Content-Type: application/json" -X PUT -d '{"done":false}' http://localhost/todo/api/v1.0/tasks/1
 ```
 
-Delete a todo item 
+### Delete a todo item 
 ```
 curl -i -u rest:restdemo -H "Content-Type: application/json" -X DELETE http://localhost/todo/api/v1.0/tasks/2
 ```
